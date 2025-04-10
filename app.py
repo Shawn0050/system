@@ -52,7 +52,7 @@ st.sidebar.header("📈 技術指標選擇")
 selected_indicators = st.sidebar.multiselect(
     "請選擇要顯示的技術指標",
     ["MA1","MA5", "MA20", "MA60", "MA200", "EMA10", "EMA30", "RSI"],
-    default=["MA1", "MA200"]
+    default=["MA1"]
 )
 
 # === 每行顯示幾個標的 ===
